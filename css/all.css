@@ -1,0 +1,116 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Castoro", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    margin-top: 160px;
+}
+
+.avatar{
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    text-align: right;
+}
+
+.bg-gr{
+    background-color: #efefef;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.pd-48{
+    padding: 48px 0;
+}
+
+.intro{
+    font-size: 32px;
+    width: 636px;
+    margin-left: auto;
+}
+
+.content{
+    width: 636px;
+    margin-bottom: 160px;
+}
+
+h3{
+    width: 636px;
+    font-size: 40px;
+    color: #ae0000;
+    border-bottom: 4px solid #ae0000;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.mb-8 li{
+    margin-bottom: 8px;
+}
+
+.mb-8 li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.mb-8 li a:hover{
+    color: #949494;
+}
+
+.mb-16 li{
+    margin-bottom: 16px;
+}
+
+.mb-16 .gr-ft{
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+}
+
+.mb-12 li{
+    margin-bottom: 12px;
+}
+
+
+.footer{
+    background-color: #000000;
+}
+
+.pd-64{
+    padding: 64px 0;
+}
+
+.inner{
+    text-align: center;
+}
+
+.inner a{
+    text-decoration: none;
+}
+
+.ml-40{
+    margin-left: 40px;
+}

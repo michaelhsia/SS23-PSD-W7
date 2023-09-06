@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 data-aos="fade-up">VITO</h1>
+        <img data-aos="fade-up" class="avatar" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/vito.png" alt="vito">
+        <h2 data-aos="fade-up" >RESUME</h2>
+    </div>
+    <div data-aos="fade-up" class="bg-gr mb-80 pd-48">
+        <div class="container">
+            <p class="intro">I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h3 data-aos="fade-up">Vito Evans</h3>
+            <ul data-aos="fade-up" class="mb-8">
+                <li><a href="#">456 Walnut Avenue, Someville, USA</a></li>
+                <li><a href="tel:+1 123 456 7890">+1 123 456 7890</a></li>
+                <li><a href="mailto:info@hexschool.com">info@hexschool.com</a></li>
+                <li><a href="#">www.infohexschool.com</a></li>
+            </ul>
+            <h3 data-aos="fade-up">Education</h3>
+            <ul data-aos="fade-up" class="mb-16">
+                <li>
+                    <p class="gr-ft">2014-2018</p>
+                    <p>Bachelor of Science in Business Administration, University of California, Los Angeles</p>
+                </li>
+                <li>
+                    <p class="gr-ft">2012-2014 </p>
+                    <p>Associate of Arts in Graphic Design, San Francisco State University</p>
+                </li>
+                <li>
+                    <p class="gr-ft">2008-2012 </p>
+                    <p>High School Diploma, Lincoln High School</p>
+                </li>
+            </ul>
+            <h3 data-aos="fade-up">Work</h3>
+            <ul data-aos="fade-up" class="mb-16">
+                <li>
+                    <p class="gr-ft">2018-2021</p>
+                    <p>Marketing Manager, ABC Company</p>
+                </li>
+                <li>
+                    <p class="gr-ft">2016-2018</p>
+                    <p>Sales Associate, XYZ Corporation</p>
+                </li>
+                <li>
+                    <p class="gr-ft">2014-2016</p>
+                    <p>Customer Service Representative, QRS Inc.</p>
+                </li>
+            </ul>
+            <h3 data-aos="fade-up">Awards</h3>
+            <ul data-aos="fade-up" class="mb-12">
+                <li>Best in Show Award, National Advertising Awards, 2020</li>
+                <li>Honorable Mention, International Design Competition, 2019</li>
+                <li>People's Choice Award, Local Art Exhibition, 2018</li>
+            </ul>
+        </div>   
+    </div>
+    <div data-aos="fade-up" class="footer pd-64">
+        <div class="container">
+            <div class="inner">
+                <a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/fb.png" alt="facebook icon"></a>
+                <a class="ml-40" href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/instagram.png" alt="instagram icon"></a>
+                <a class="ml-40" href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/line.png" alt="line icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 800, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
+</body>
+</html>
